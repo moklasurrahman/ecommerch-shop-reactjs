@@ -1,8 +1,8 @@
 
 // All User FOR Admin 
-  export const getUsers = async() =>{
+  export const getUserall = async() =>{
     const response = await fetch('http://localhost:8000/users');
-   
+    
     if(!response.ok){ //This code for error handle
         // eslint-disable-next-line no-throw-literal
         throw { message: response.statusText, status: response.status };
@@ -22,8 +22,9 @@ const getSession = () =>{
   return {token, cbid};
 }
 
-export const getUser = async () => { // getUser going  DropdowwnLogin page`
 
+
+export const getUser = async () => { // getUser going  DropdowwnLogin page`
   const browserData = getSession()
   const requestOptions = {
     method: "GET",

@@ -17,8 +17,6 @@ const DropdownLogin = ({setDropdown}) => { //setDropdown coming from DropdownLog
      
         const data = await getUser();
         data.email ? setUser(data) : handelLogout();
-      
-      
     }
     fetchData()
   // eslint-disable-next-line react-hooks/exhaustive-deps

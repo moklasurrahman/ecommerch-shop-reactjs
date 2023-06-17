@@ -8,7 +8,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { useEffect, useState } from "react";
-import { getUsers } from "../../../services/DataService";
+import { getUserall } from "../../../services/dataService";
 
 const Tabel = () => {
 
@@ -17,7 +17,7 @@ const Tabel = () => {
   useEffect(() => {
       async function fetchProducts(){
        try{
-         const data = await getUsers()
+         const data = await getUserall()
          setUsers(data)
        }
        catch(error){
