@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+/* eslint-disable react/prop-types */
+import { useState } from 'react'
 import { Link , useNavigate} from 'react-router-dom'
 import { logout } from '../../services/authService'
 import { useEffect } from 'react';

@@ -15,7 +15,6 @@
 
 
 
-
 // For Login user Information
 const getSession = () =>{
   const token = JSON.parse(sessionStorage.getItem("token"));
@@ -33,7 +32,6 @@ export const getUser = async () => { // getUser going  DropdowwnLogin page`
       Authorization: `Bearer ${browserData.token}`,
     },
   };
-
 
   const response = await fetch(`http://localhost:8000/users/${browserData.cbid}`,
     requestOptions
