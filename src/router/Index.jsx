@@ -3,14 +3,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "../pages/Home";
 import Navbar from './../components/Navbar';
 import Erroe from './Erroer';
-import ProductDetail from '../pages/productDetail';
 import CartPage from './../pages/cartPage/CartPage';
 import RegistrationForm from '../pages/register/RegistrationForm';
 import LoginForm from '../pages/register/LoginForm';
 import AdminHome from '../admin/Home/Home';
 import ProductList from '../pages/ProductList';
 import ProtectedRoutes from './ProtectedRoutes';
-
+import ProductDetail from '../pages/ProductDetail';
 
 
 

@@ -200,6 +200,12 @@
       "password": "$2a$10$cQ1wG.PRK9JW.Xvqu5cS3ejSPS3ybhS7WrKnJOxYO4p1M1rO63IAW",
       "number": "01736507520",
       "id": 3
+    },
+    {
+      "email": "moklasur@gmail.com",
+      "password": "$2a$10$WxUhrkd4IY5kJSuDrNEzUub1IxCMfhgmWJWhAQb8m2YemPoQhucqK",
+      "number": "01772255047",
+      "id": 4
     }
   ]
 }

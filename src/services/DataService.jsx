@@ -23,7 +23,7 @@ const getSession = () =>{
   return {token, cbid};
 }
 
-export const getUser = async () => { // getUser going to DropdowwnLogin page`
+export const getUser = async () => { // getUser going  DropdowwnLogin page`
 
   const browserData = getSession()
   const requestOptions = {
@@ -34,9 +34,11 @@ export const getUser = async () => { // getUser going to DropdowwnLogin page`
     },
   };
 
+
   const response = await fetch(`http://localhost:8000/users/${browserData.cbid}`,
     requestOptions
   );
+
 
   if(!response.ok){
     // eslint-disable-next-line no-throw-literal
