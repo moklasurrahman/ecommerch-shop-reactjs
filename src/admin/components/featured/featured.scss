@@ -1,0 +1,76 @@
+.featured{
+    flex: 2;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(171,171,171,0.49); 
+    box-shadow: 0px 0px 8px 1px rgba(171,171,171,0.49);
+    padding: 10px;
+    border-radius: 5px;
+
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        span{
+            font-size: 18px;
+            font-weight: 500;
+            color: gray;
+        }
+        .icon{
+            font-size: 24px;
+            cursor: pointer;
+        }
+    }
+    .bottom{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px;
+        .featuredChart{
+            width: 100px;
+            height: 100px;
+        }
+        .bartitle{
+            font-weight: 500;
+            color: gray;
+        }
+        .count{
+            font-size: 30px;
+            font-weight: 500;
+        }
+        .disc{
+            font-weight: 300;
+            color: lightgray;
+        }
+        .summery{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            .item{
+                text-align: center;
+                .itemTitle{
+                    margin-bottom: 20px;
+                    color: gray;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+               .itemResult{
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                font-weight: 500;
+
+                &.positive{
+                    color: green;
+                }
+                &.negative{
+                    color: red;
+                }
+               } 
+            }
+        }
+    }
+    
+}
