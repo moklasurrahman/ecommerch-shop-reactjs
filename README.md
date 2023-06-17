@@ -1,6 +1,6 @@
 # ecommerch-shop-reactjs
 
-<h1>run this project.<\h1>
+<h1>run this project.</h1>
 
 Step 1: clone the git repository in your machine.
 Step 2: go to the root directory name  <mark>e-commerc</mark>
